@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/rest.css">
+    <link rel="stylesheet" href="../css/shoppingCart.css">
+</head>
+<body>
+    <div id="box">
+        <div class="header">
+            <button name="yes">全选</button>
+            <button name="no">不选</button>
+            <button name="not">反选</button>
+        </div>
+
+    </div>
+    <script src="../js/tools.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/shoppingCart.js"></script>
+    <script>
+
+        //构造函数
+        const oBox = document.querySelector('#box');
+        const shopping = new setShopCart(  oBox );
+        shopping.init();
+        
+
+
+    
+    </script>
+</body>
+</html>
